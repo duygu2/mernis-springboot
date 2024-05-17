@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mernisConfig
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/UserRegister
+    username: postgres
+    password: test
